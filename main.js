@@ -3,7 +3,7 @@ const noBtn = document.getElementById("noBtn");
 const response = document.getElementById("response");
 
 yesBtn.addEventListener("click", () => {
-  response.textContent = "YAY!!! XOXO Dipesh 🥰";
+  response.textContent = "YAY!!!I am so happppppyyyyyyy! XOXO Dipesh 🥰";
   launchHearts();
 });
 
@@ -13,16 +13,16 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
 
-function launchHearts() {
+function launchcats () {
   for (let i = 0; i < 100; i++) {
-    const heart = document.createElement("div");
-    heart.className = "heart";
-    heart.textContent = "💖";
+    const cats = document.createElement("div");
+    heart.className = "cats";
+    heart.textContent = " 😻💖";
 
     heart.style.left = Math.random() * 100 + "vw";
     heart.style.animationDuration = 2 + Math.random() * 2 + "s";
 
-    document.body.appendChild(heart);
+    document.body.appendChild(chats);
 
     setTimeout(() => {
       heart.remove();
